@@ -98,4 +98,5 @@ public class HomeFragment extends Fragment implements OnMovieListener {
         startActivity(intent);
     }
 
+
 }

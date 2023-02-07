@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1041392009826",
+    "project_id": "cgp-app",
+    "storage_bucket": "cgp-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041392009826:android:3c6eb6e8faf170af88873b",
+        "android_client_info": {
+          "package_name": "com.richardo.a2440064993_richardowijaya_finalexam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041392009826-ugm8r1920pnki2h9omam5pfrqaki3320.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.richardo.a2440064993_richardowijaya_finalexam",
+            "certificate_hash": "e0ae9aad294892cbdedf36fbaf203672a33cc129"
+          }
+        },
+        {
+          "client_id": "1041392009826-uno1hui06109ookgp45cncrj7ev3044k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaMPHFXufgAUlMt-hfgtgRMs_yqwuuMU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041392009826-uno1hui06109ookgp45cncrj7ev3044k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

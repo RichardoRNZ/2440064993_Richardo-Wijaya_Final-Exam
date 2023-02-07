@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
         <ImageView
             android:scaleType="centerCrop"
@@ -90,22 +86,25 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp" />
 
-        <Button
-            android:id="@+id/btn_buy"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
 
-            android:layout_marginTop="50dp"
-            android:layout_marginEnd="5dp"
-            android:text="Buy Ticket"
-            app:cornerRadius="5dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/detail_movie_desc"
-            app:strokeColor="@color/white"
-            app:strokeWidth="1dp" />
+    <Button
+        android:id="@+id/btn_buy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="5dp"
+        android:text="Buy Ticket"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detail_movie_desc"
+        app:layout_constraintVertical_bias="0.956"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp" />
 
-</androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
